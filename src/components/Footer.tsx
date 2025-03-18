@@ -1,13 +1,15 @@
+import Logo2 from '../assets/Logo2.png';
+
 export default function Footer() {
     return (
       <footer className="bg-gradient-to-b from-blue-900 to-blue-800 text-white px-6 py-10 md:px-20 md:py-12">
         <div className="grid grid-cols-1 md:grid-cols-5 gap-8 text-center md:text-left">
   
           {/* Logo & tagline */}
-          <div className="space-y-4">
-            <img src="/src/assets/Logo2.png" alt="Edgar Logo" className="mx-auto md:mx-0 w-20 md:w-24" />
-            <p className="text-sm leading-relaxed">Transforming Transactions - Empowering Businesses</p>
-          </div>
+        <div className="space-y-4">
+          <img src={Logo2} alt="Edgar Logo" className="mx-auto md:mx-0 w-20 md:w-24" />
+          <p className="text-sm leading-relaxed">Transforming Transactions - Empowering Businesses</p>
+        </div>
   
           {/* Useful Links */}
           <div>
