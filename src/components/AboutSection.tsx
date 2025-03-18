@@ -1,10 +1,13 @@
+import componentImg from '../assets/Component.jpg';
+
 export default function AboutSection() {
     return (
       <section className="py-16 px-8 md:px-20">
         <div className="flex flex-col md:flex-row items-center gap-10">
           {/* Image Collage */}
           <div className="w-full md:w-1/2">
-            <img src="/src/assets/Component.jpg" alt="About Edgar Interactive" className="rounded-xl" />
+          <img src={componentImg} alt="About Edgar Interactive" className="rounded-xl" />
+
           </div>
   
           {/* About Text */}
