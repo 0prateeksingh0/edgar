@@ -5,7 +5,7 @@ export default function Footer() {
   
           {/* Logo & tagline */}
           <div className="space-y-4">
-            <img src="/src/assets/Logo2.svg" alt="Edgar Logo" className="mx-auto md:mx-0 w-20 md:w-24" />
+            <img src="/src/assets/Logo2.png" alt="Edgar Logo" className="mx-auto md:mx-0 w-20 md:w-24" />
             <p className="text-sm leading-relaxed">Transforming Transactions - Empowering Businesses</p>
           </div>
   
